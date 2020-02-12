@@ -1,0 +1,143 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+html, body {
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2{
+  border-bottom: 2px dashed #2d2d2d;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: block;
+  color: #2d2d2d;
+
+}
+
+h4{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+section{
+  margin-bottom: 40px;
+}
+
+.tabs--primary .nav .nav-tabs{
+  display: block;
+  bottom: -10px;
+  position: absolute;
+  right: 0px;
+}
+
+.block-field-blockuseruserfield-affiliate-healthcare-part a{
+  font-size: 48px;
+  font-weight: 200;
+  border-bottom: 2px solid #2d2d2d;
+  color: #2d2d2d;
+  margin-bottom: 30px;
+  display: block;
+}
+
+#block-notificationbar{
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 1rem 9999rem;
+  background-color: #6200EE;
+  color: white;
+  margin-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+#block-notificationbar a{
+  color: white;
+  line-height: 22px;
+  /*border: 1px solid white;*/
+  /*border-radius: 5px;
+  padding: 0px 6px;*/
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #2d2d2d;
+}
+
+.navbar-default .navbar-brand {
+  display: none;
+}
+
+.navbar-default {
+  background-color: white;
+  border-color: white;
+}
+
+.navbar-header .logo img{
+  width: 220px;
+  height: auto;
+}
+
+#confetti-holder{
+  display: inline-block;
+  position: absolute;
+  top: -38vh;
+  z-index: -20;
+  left: -10vw;
+  width: 120vw;
+  height: 100vh;
+}
+
+.webform-flexbox{
+  display: flex;
+  margin: 1em -.5em;
+  margin-left: 20px;
+  font-size: 12px;
+  padding-bottom: 20px;
+  color: #545454;
+}
+
+.grouping-title{
+  display: block;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.webform-flex--container label{
+  height: 33px;
+  overflow: hidden;
+}
+
+.form-item input{
+  margin-left: 20px;
+}
+
+.webform-flex .form-item input{
+  margin-left: 0px;
+}
+
+.form-group{
+  margin-bottom: 50px;
+}
+
+
+@media (min-width: 768px){
+  .navbar-nav {
+    float: right;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+
+  .navbar-right {
+    margin-right: 0px;
+  }
+
+  .content{
+    margin-top: 10px;
+  }
+
+  .webform-progress-tracker.progress-tracker {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }

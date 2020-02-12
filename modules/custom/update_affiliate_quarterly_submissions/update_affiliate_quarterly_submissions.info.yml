@@ -1,0 +1,5 @@
+name: Affiliates Quarterly Finance and Governance Statistics Submission Handler
+description: Log and handle submissions of the Affiliates Quarterly Finance and Governance Statistics form
+core: 8.x
+package: Custom
+type: module

@@ -1,0 +1,5 @@
+name: Healthcare Partners Quarterly Submission Status
+description: Log and handle submissions of the Healthcare Partner Quarterly form
+core: 8.x
+package: Custom
+type: module

@@ -1,0 +1,5 @@
+name: Affiliates Quarterly Program Submission Handler
+description: Log and handle submissions of the Affiliates Quarterly Program Statistics form
+core: 8.x
+package: Custom
+type: module

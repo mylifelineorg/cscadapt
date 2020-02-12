@@ -1,0 +1,5 @@
+name: Update Affiliate Annual Submissions
+description: Handles affiliate annual form submissions
+core: 8.x
+package: Custom
+type: module

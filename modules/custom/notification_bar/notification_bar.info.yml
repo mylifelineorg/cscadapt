@@ -1,0 +1,7 @@
+name: Notification Bar Block
+type: module
+description: The notification bar for displaying next form due dates
+core: 8.x
+package: Custom
+dependencies:
+  - block
